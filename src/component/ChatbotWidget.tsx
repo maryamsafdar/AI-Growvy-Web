@@ -58,7 +58,7 @@ export default function ChatbotWidget() {
 
           {/* Embedded Chat */}
           <iframe
-            src="http://localhost:8501/" // replace with live URL
+            src="https://growvyaiassistant.streamlit.app/" // replace with live URL
             title="Growvy Chatbot"
             width="100%"
             height="100%"
