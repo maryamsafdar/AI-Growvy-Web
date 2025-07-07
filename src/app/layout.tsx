@@ -1,6 +1,7 @@
 import Footer from "@/component/Footer";
 import "./globals.css";
 import Navbar from "@/component/Navbar";
+import ChatbotWidget from "@/component/ChatbotWidget";
 
 export const metadata = {
   title: "Growvy - Maximize Business Efficiency",
@@ -18,6 +19,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <ChatbotWidget />
       </body>
     </html>
   );
